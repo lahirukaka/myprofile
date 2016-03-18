@@ -1,4 +1,3 @@
-body{display:flex;}
 /********sidebar*********/
 #sidebar{width:24vw;background-color:#000;height:100vh;box-shadow: 2px 2px 15px #1C1C1C;color:#fff;display:flex;flex-direction:column;overflow:hidden;}
 #face{height:auto;margin:0 auto;width:80%;padding-top:15px;}
@@ -8,7 +7,18 @@ body{display:flex;}
 #social{padding:10px 10px;background-color:aliceblue;height:3vh;}
 #social > div{padding:2px;display:flex;align-items:center;justify-content:space-around;}
 #social .social-icons{width:30px; height:auto;}
-nav{margin:10px;border:1px solid #272727;flex-grow:1;display:flex;flex-direction:column;align-items:center;justify-content: space-between;}
-nav > a{width:100%;text-align:center;padding:10% 0;flex-grow:1;font-size:1.3rem;cursor:pointer;}
+nav#mainnav{margin:10px;border:1px solid #272727;flex-grow:1;display:flex;flex-direction:column;align-items:center;justify-content: space-between;}
+nav#mainnav > a{width:100%;text-align:center;padding:9% 0;flex-grow:1;font-size:1.3rem;cursor:pointer;letter-spacing:5px;font-weight:700;}
+
 /******content*********/
-#content{width:70vw;background-color:#E8E8E8;margin:5vh auto;box-shadow:2px 2px 15px #1C1C1C;overflow-y:auto;padding:20px;border-radius:5px;}
+#content{width:70vw;height:86vh;background-color:#E8E8E8;margin:1vh auto 5vh auto;box-shadow:2px 2px 15px #1C1C1C;overflow-y:auto;padding:20px;border-radius:5px;}
+.page-wrapper{margin:10px;overflow:hidden;}
+.page{padding:10px;border:1px solid #fff;}
+.para{padding:0 5px;text-align:justify;font-size:1.2rem;line-height:1.6rem;font-weight:700;color:darkslateblue;}
+.para > a{transition:all 0.5s;}
+.para > a:link, .para > a:visited{color:coral;}
+.para > a:hover {color:darkolivegreen;}
+
+/******education*********/
+div.edu-category{padding:15px;margin:10px auto;background-color:#fff;border-radius:1px;box-shadow:1px 5px 5px rgba(0,0,0,0.5);}
+div.edu-cat-header{height:130px;background-color:blueviolet;color:#fff;font-size:1.3rem;}

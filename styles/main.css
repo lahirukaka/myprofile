@@ -1,4 +1,7 @@
-html,body{width:100vw;height:auto;font-size:14px;margin:0;padding:0px;background-color:darkgray;overflow-x:hidden;}
+html,body{width:100vw;height:100vh;font-size:14px;margin:0;padding:0px;background-color:darkgray;overflow-x:hidden;}
 h1,h2,h4,header,div,section,nav,article,figure{margin:0;padding:0;}
-.active{background-color:coral;opacity:0.8;}
+body{display:flex;}
+.active{background-color:coral;}
 .full-inner-wrapper{width:100%;height:100%;}
+nav#mainnav > a{transition:background-color 0.5s;transition:color 1s;}
+nav#mainnav > a:hover{background-color:#fff;color:#000;}

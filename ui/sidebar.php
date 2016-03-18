@@ -14,9 +14,9 @@
             <a target="_blank" title="Twitter Profile" href="https://twitter.com/lahirukaka"><img class="social-icons" src="res/twitter.png" /></a>
         </div>
     </article>
-    <nav>
-        <a class="active">About</a>
+    <nav id="mainnav">
+        <a>Story</a>
         <a>Education</a>
-        <a>Contact</a>
+        <a class="active">Contact</a>
     </nav>
 </section>
