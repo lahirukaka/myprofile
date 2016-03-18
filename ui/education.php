@@ -4,7 +4,7 @@
     <div class="edu-category">
         <div class="edu-cat-header">
             <header>School : G/ Dharmasoka College, Ambalangoda</header>
-            <img src="" />
+            <img src="res/dharmasoka-college.png" />
         </div>
         <div class="edu-section">
             <div class="edu-section-header">
@@ -38,9 +38,11 @@
     <!-----------------------BCS---------------------------->
     <div class="edu-category">
         <div class="edu-cat-header">
-            <header>British Computer Society (BCS)</header>
-            <img src="" />
-            <caption class="edu-section-id">BCS ID : 990358532</caption>
+            <div>
+                <header>British Computer Society (BCS)</header>
+                <span class="edu-section-id">BCS ID : 990358532</span>
+            </div>
+            <img src="res/bcs.png" />
         </div>
         <div class="edu-section">
             <div class="edu-section-header">
@@ -73,7 +75,7 @@
     <div class="edu-category">
         <div class="edu-cat-header">
             <header>VMware Partner University</header>
-            <img src="" />
+            <img src="res/vmware.png" />
         </div>
         <div class="edu-section">
             <div class="edu-section-header">
@@ -92,9 +94,11 @@
     <!-----------------------Netacad---------------------------->
     <div class="edu-category">
         <div class="edu-cat-header">
-            <header>Cisco Network Academy</header>
-            <img src="" />
-            <caption class="edu-section-id">Cisco Network Academy ID : </caption>
+            <div>
+                <header>Cisco Network Academy</header>
+                <span class="edu-section-id">Cisco Network Academy ID : </span>
+            </div>
+            <img src="res/netacad.png" />
         </div>
         
         <div class="edu-section">
@@ -130,9 +134,11 @@
     <!-----------------------Cisco---------------------------->
     <div class="edu-category">
         <div class="edu-cat-header">
-            <header>Cisco Professional Certifications</header>
-            <img src="" />
-            <caption class="edu-section-id">Cisco ID : </caption>
+            <div>
+                <header>Cisco Professional Certifications</header>
+                <span class="edu-section-id">Cisco ID : </span>
+            </div>
+            <img src="res/cisco.png" height="67px"/>
         </div>
         
         <div class="edu-section">
@@ -172,7 +178,7 @@
     <div class="edu-category">
         <div class="edu-cat-header">
             <header>EC-Council</header>
-            <img src="" />
+            <img src="res/ec-council.png" height="30px" />
         </div>
         <div class="edu-section">
             <div class="edu-section-header">

@@ -21,4 +21,7 @@ nav#mainnav > a{width:100%;text-align:center;padding:9% 0;flex-grow:1;font-size:
 
 /******education*********/
 div.edu-category{padding:15px;margin:10px auto;background-color:#fff;border-radius:1px;box-shadow:1px 5px 5px rgba(0,0,0,0.5);}
-div.edu-cat-header{height:130px;background-color:blueviolet;color:#fff;font-size:1.3rem;}
+div.edu-cat-header{height:130px;background-color:blueviolet;color:#fff;font-size:1.3rem;display:flex;justify-content:space-between;padding:5px;}
+div.edu-cat-header header{font-size:1.9rem;font-weight:700;margin-top:15px;margin-left:10px;}
+div.edu-cat-header > img{align-self: center;}
+div.edu-cat-header > div > span.edu-section-id{margin:15px 0 0 10px;font-size:1.1rem;font-weight:600;color:rgba(255,255,255,0.8);}
