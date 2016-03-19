@@ -51,4 +51,7 @@ div.edu-section > article > div.edu-section-cert > .edu-section-verify > a:hover
 /******contact*********/
 #contact{background-color:#fff;height:95%;}
 #contact > .inner-wrapper{padding:10px;display:flex;flex-wrap:wrap;justify-content:space-between;}
-#contact > .inner-wrapper > div.contact-item{width:220px;height:220px;border:1px solid rgba(0,0,0,0.6);margin-bottom:20px;}
+#contact > .inner-wrapper > div.contact-item{width:220px;height:220px;border-radius:5px;margin-bottom:20px;border:1px solid rgba(0,0,0,0.1);cursor:pointer;}
+#contact > .inner-wrapper > div.contact-item > img{width:220px;height:220px;border-radius:5px;}
+#contact > .inner-wrapper > div.contact-item > div{text-align:center;position:relative;bottom:102%;height:85%;line-height:220px;border-radius:5px;background-color:rgba(255,255,255,0.6);font-size:2rem;font-weight:600;border:20px solid gold;visibility:hidden;}
+#contact > .inner-wrapper > div.contact-item > div:hover{visibility:visible;}
