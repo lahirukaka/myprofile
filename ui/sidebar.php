@@ -15,8 +15,8 @@
         </div>
     </article>
     <nav id="mainnav">
+        <a class="active">Qualifications</a>
         <a>Story</a>
-        <a>Education</a>
-        <a class="active">Contact</a>
+        <a>Contact</a>
     </nav>
 </section>

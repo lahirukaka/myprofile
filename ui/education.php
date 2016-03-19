@@ -1,4 +1,4 @@
-<article id="about" class="page">
+<article id="education" class="page">
     
     <!-----------------------School---------------------------->
     <div class="edu-category">
@@ -91,7 +91,7 @@
             </div>
             <article>
                 <div class="edu-section-cert">
-                    <img src="" />
+                    <img src="res/vtsp5-cert.png" />
                 </div>
             </article>
         </div>
@@ -104,7 +104,7 @@
         <div class="edu-cat-header">
             <div>
                 <header>Cisco Network Academy</header>
-                <span class="edu-cat-id">Cisco Network Academy ID : </span>
+                <span class="edu-cat-id">Cisco Network Academy ID : 7778137</span>
             </div>
             <img src="res/netacad.png" />
         </div>
@@ -116,10 +116,10 @@
             </div>
             <article>
                 <div class="edu-section-cert">
-                    <img src="" />
-                    <img src="" />
-                    <img src="" />
-                    <img src="" />
+                    <img src="res/ccna-academic-1.png" />
+                    <img src="res/ccna-academic-2.png" />
+                    <img src="res/ccna-academic-3.png" />
+                    <img src="res/ccna-academic-4.png" />
                 </div>
             </article>
         </div>
@@ -131,7 +131,7 @@
             </div>
             <article>
                 <div class="edu-section-cert">
-                    <img src="" />
+                    <img src="res/ccnas-academic-cert.png" />
                 </div>
             </article>
         </div>
@@ -144,7 +144,7 @@
         <div class="edu-cat-header">
             <div>
                 <header>Cisco Professional Certifications</header>
-                <span class="edu-cat-id">Cisco ID : </span>
+                <span class="edu-cat-id">Cisco ID : CSCO12279627</span>
             </div>
             <img src="res/cisco.png" height="67px"/>
         </div>
@@ -156,10 +156,9 @@
             </div>
             <article>
                 <div class="edu-section-cert">
-                    <span class="edu-section-marks"></span>
-                    <span class="edu-section-verify">Verify Certification following this link and using this ID : </span>
-                    <img src="" />
-                    <img src="" />
+                    <span class="edu-section-marks">Marks : <span class="red-back">960/1000</span></span>
+                    <span class="edu-section-verify"><a target="_blank" href="https://www.cisco.com/go/verifycertificate">Verify Certification following this link</a> and using ID : 415671944824DSDG</span>
+                    <img src="res/ccna-cert.png" />
                 </div>
             </article>
         </div>
@@ -171,10 +170,9 @@
             </div>
             <article>
                 <div class="edu-section-cert">
-                    <span class="edu-section-marks"></span>
-                    <span class="edu-section-verify">Verify Certification following this link and using this ID : </span>
-                    <img src="" />
-                    <img src="" />
+                    <span class="edu-section-marks">Marks : <span class="red-back">980/1000</span></span>
+                    <span class="edu-section-verify"><a target="_blank" href="https://www.cisco.com/go/verifycertificate">Verify Certification following this link</a> and using ID : 415902220547FKVI</span>
+                    <img src="res/ccnas-cert.png" />
                 </div>
             </article>
         </div>
@@ -186,7 +184,7 @@
             </div>
             <article>
                 <div class="edu-section-cert">
-                    <img src="" />
+                    <img src="res/4011-recognizion.png" />
                 </div>
             </article>
         </div>

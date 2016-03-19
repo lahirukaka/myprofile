@@ -32,3 +32,23 @@ div.edu-section > div.edu-section-header{height:auto;background-color:rgba(0,0,0
 div.edu-section > div.edu-section-header img{border:1px solid rgba(255,255,255,0.5);padding:5px;}
 div.edu-section > div.edu-section-header header{color:#fff;font-size:1.4rem;font-weight:600;}
 div.edu-section > div.edu-section-header .edu-section-stat{color:rgba(255,255,255,0.5);font-size:1.1rem;font-weight:600;}
+div.edu-category > div.edu-section > article{padding:8px;}
+div.edu-section > article > .edu-table{width:50%;background-color:rgba(0,0,255,0.1);padding:7px;}
+div.edu-section > article > .edu-table > thead{background-color:rgba(0,0,0,0.1);text-align:center;font-size:1.2rem;font-weight:600;transition:background-color 0.5s;}
+div.edu-section > article > .edu-table > thead:hover{background-color:rgba(0,0,0,0.3);}
+div.edu-section > article > .edu-table .edu-table-grade{text-align:center;}
+div.edu-section > article > .edu-table .edu-table-sub{padding: 5px 0 5px 20px;}
+div.edu-section > article > .edu-table > tbody > tr{transition:background-color 0.5s;}
+div.edu-section > article > .edu-table > tbody > tr:hover{background-color:azure;font-weight:600;}
+div.edu-section > article > div.edu-section-cert{display:flex;flex-direction:column;}
+div.edu-section > article > div.edu-section-cert > img{margin:5px auto;width:70%;height:70%;border-style:inset;border-width:8px;border-color:gold;cursor:pointer;}
+div.edu-section > article > div.edu-section-cert > .edu-section-marks{cursor:pointer;padding:10px 5px;background-color:gold;border-radius:5px;width:150px;text-align:center;color:#fff;font-size:1.2rem;font-weight:600;}
+div.edu-section > article > div.edu-section-cert > .edu-section-verify{padding:10px 15px;background-color:coral;margin:5px 0;border-radius:2px;color:#fff;font-size:1.1rem;width:500px;}
+div.edu-section > article > div.edu-section-cert > .edu-section-verify > a:link,
+div.edu-section > article > div.edu-section-cert > .edu-section-verify > a:visited{font-style:italic;color:azure;font-weight:600;transition:all 0.5s;}
+div.edu-section > article > div.edu-section-cert > .edu-section-verify > a:hover{color:rgba(255,255,255,0.8);}
+
+/******contact*********/
+#contact{background-color:#fff;height:95%;}
+#contact > .inner-wrapper{padding:10px;display:flex;flex-wrap:wrap;justify-content:space-between;}
+#contact > .inner-wrapper > div.contact-item{width:220px;height:220px;border:1px solid rgba(0,0,0,0.6);margin-bottom:20px;}
