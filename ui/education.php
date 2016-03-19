@@ -6,6 +6,7 @@
             <header>School : G/ Dharmasoka College, Ambalangoda</header>
             <img src="res/dharmasoka-college.png" />
         </div>
+        
         <div class="edu-section">
             <div class="edu-section-header">
                 <header>GCE Ordinary Level</header>
@@ -32,6 +33,7 @@
                 </table>
             </article>
         </div>
+        
     </div>
     <!-----------------------End---------------------------->
     
@@ -40,14 +42,17 @@
         <div class="edu-cat-header">
             <div>
                 <header>British Computer Society (BCS)</header>
-                <span class="edu-section-id">BCS ID : 990358532</span>
+                <span class="edu-cat-id">BCS ID : 990358532</span>
             </div>
             <img src="res/bcs.png" />
         </div>
+        
         <div class="edu-section">
             <div class="edu-section-header">
-                <header>Higher Education Qualification</header>
-                <span class="edu-section-stat">Diploma Level</span>
+                <div>
+                    <header>Higher Education Qualification</header>
+                    <span class="edu-section-stat">Diploma Level</span>
+                </div>
             </div>
             <article>
                 <table class="edu-table">
@@ -68,6 +73,7 @@
                 </table>
             </article>
         </div>
+        
     </div>
     <!-----------------------End---------------------------->
     
@@ -77,10 +83,11 @@
             <header>VMware Partner University</header>
             <img src="res/vmware.png" />
         </div>
+        
         <div class="edu-section">
             <div class="edu-section-header">
-                <header>VMware Technical Sales Professional 5 (VTSP5)</header>
-                <img src="" />
+                <img src="res/vtsp5.png" class="badge-precent-30" />
+                <header>VMware Technical Solutions Professional 5 (VTSP5)</header>
             </div>
             <article>
                 <div class="edu-section-cert">
@@ -88,6 +95,7 @@
                 </div>
             </article>
         </div>
+        
     </div>
     <!-----------------------End---------------------------->
     
@@ -96,15 +104,15 @@
         <div class="edu-cat-header">
             <div>
                 <header>Cisco Network Academy</header>
-                <span class="edu-section-id">Cisco Network Academy ID : </span>
+                <span class="edu-cat-id">Cisco Network Academy ID : </span>
             </div>
             <img src="res/netacad.png" />
         </div>
         
         <div class="edu-section">
             <div class="edu-section-header">
+                <img src="res/ccna_ccns.png" class="badge-precent-30" />
                 <header>CCNA - Discovery</header>
-                <img src="" />
             </div>
             <article>
                 <div class="edu-section-cert">
@@ -118,8 +126,8 @@
         
         <div class="edu-section">
             <div class="edu-section-header">
+                <img src="res/ccna_ccns.png" class="badge-precent-30" />
                 <header>CCNA Security - Discovery</header>
-                <img src="" />
             </div>
             <article>
                 <div class="edu-section-cert">
@@ -136,15 +144,15 @@
         <div class="edu-cat-header">
             <div>
                 <header>Cisco Professional Certifications</header>
-                <span class="edu-section-id">Cisco ID : </span>
+                <span class="edu-cat-id">Cisco ID : </span>
             </div>
             <img src="res/cisco.png" height="67px"/>
         </div>
         
         <div class="edu-section">
             <div class="edu-section-header">
+                <img src="res/ccna.jpg" class="badge-sq-100" />
                 <header>CCNA Routing & Switching</header>
-                <img src="" />
             </div>
             <article>
                 <div class="edu-section-cert">
@@ -158,14 +166,26 @@
         
         <div class="edu-section">
             <div class="edu-section-header">
+                <img src="res/ccnas.jpg" class="badge-sq-100" />
                 <header>CCNA Security</header>
-                <img src="" />
             </div>
             <article>
                 <div class="edu-section-cert">
                     <span class="edu-section-marks"></span>
                     <span class="edu-section-verify">Verify Certification following this link and using this ID : </span>
                     <img src="" />
+                    <img src="" />
+                </div>
+            </article>
+        </div>
+        
+        <div class="edu-section">
+            <div class="edu-section-header">
+                <img class="badge-sq-100" src="res/cnss.png" />
+                <header>NSA & CNSS 4011 Recognizion</header>
+            </div>
+            <article>
+                <div class="edu-section-cert">
                     <img src="" />
                 </div>
             </article>
@@ -180,11 +200,13 @@
             <header>EC-Council</header>
             <img src="res/ec-council.png" height="30px" />
         </div>
+        
         <div class="edu-section">
             <div class="edu-section-header">
-                <header>Certified Ethical Hacker (C|EH)</header>
-                <img src="" />
-                <span class="edu-section-stat">Course Followed</span>
+                <div>
+                    <header>Certified Ethical Hacker (C|EH)</header>
+                    <span class="edu-section-stat">Course Followed</span>
+                </div>
             </div>
             <article>
                 <div class="edu-section-cert">
@@ -192,6 +214,7 @@
                 </div>
             </article>
         </div>
+        
     </div>
     <!-----------------------End---------------------------->
     
