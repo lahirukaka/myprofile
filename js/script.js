@@ -2,8 +2,13 @@ $(function(){
     /*events*/
     $('#face img').hover(shakeProfilePicture);
     $("#social > div.full-inner-wrapper").hover(flipSocialIcons);
+    $(".edu-section-cert > img").click(openCert);
+    $(".edu-section-cert > img").hover(certFocused,certUnFocused);
+    $("#contact .contact-item").hover(contactIconHover);
+    $("#contact .contact-item").click(contactIconClick);
     /*sidebar*/
     shakeProfilePicture();
+    contactIconRubberBand($("#contact .contact-item"),"rubberBand");
 });
 
 /*functions*/
@@ -41,6 +46,56 @@ function flipSocialIcons()
         doWhenDone($(e),function(){
             $(e).removeClass($cls);
         });
+    });
+}
+
+function openCert()
+{
+    var url=$(this).attr("src");
+    var win=window.open(url,'_blank');
+    if(win){win.focus();}
+}
+
+function certFocused()
+{
+    var ele=$("#notice");
+    ele.removeClass("hidden");
+    ele.addClass("visible");
+    ele.text("Click on certificate to enlarge");
+}
+
+function certUnFocused()
+{
+    var ele=$("#notice");
+    ele.removeClass("visible");
+    ele.addClass("hidden");
+}
+
+function contactIconRubberBand($ele,$anim)
+{
+    var cls="animated " + $anim;
+    $ele.each(function(i,e){
+        $(e).children("img").addClass(cls);
+        doWhenDone($ele,function(){$(e).children("img").removeClass(cls);})
+    });
+}
+
+function contactIconHover()
+{
+    var cls="animated jello";
+    $(this).addClass(cls);
+    doWhenDone($(this),function(){$(this).removeClass(cls);});
+}
+
+function contactIconClick()
+{
+    var cls="animated flipOutY";
+    var url=$(this).attr("data-url");
+    $(this).children("img").addClass(cls);
+    doWhenDone($(this),function(){
+        var win=window.open(url,'_blank');
+        if(win){win.focus();} 
+        $(this).children("img").removeClass(cls);
     });
 }
 

@@ -7,6 +7,9 @@ nav#mainnav > a{transition:background-color,color 0.5s,1s;}
 nav#mainnav > a:hover{background-color:#fff;color:#000;}
 .red-back{transition:background-color 0.4s;}
 .red-back:hover{background-color:orangered;padding:5px;border-radius:5px;}
+#notice{box-shadow:10px 3px 0px rgba(0,0,0,0.2);position:absolute;left:0px;right:0px;top:0px;height:50px;background-color:cadetblue;color:#fff;font-size:1.2rem;font-weight:600;text-align:center;line-height:50px;}
+.hidden{opacity:0;visibility:hidden;transition:opacity,visibility 0.5s,1s;}
+.visible{opacity:1;visibility:visible;transition:opacity,visibility 0s,0.5s;}
 /*animations*/
 #social img.social-icons
 {

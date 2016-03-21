@@ -14,6 +14,7 @@ date_default_timezone_set( "Asia/Colombo" )
         <script src="js/script.js"></script>
     </head>
     <body>
+    <div id="notice" class="hidden"></div>
 <?php
     require_once("ui/sidebar.php");
     require_once("ui/content.php");

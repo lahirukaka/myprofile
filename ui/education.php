@@ -208,7 +208,46 @@
             </div>
             <article>
                 <div class="edu-section-cert">
-                    <img src="" />
+                    <img src="res/ceh-cert.JPG" />
+                </div>
+            </article>
+        </div>
+        
+    </div>
+    <!-----------------------End---------------------------->
+    
+    <!-----------------------Extracurricular---------------------------->
+    <div class="edu-category">
+        <div class="edu-cat-header">
+            <header>Extracurricular Activities</header>
+            <!--img src="res/ec-council.png" height="30px" /-->
+        </div>
+        
+        <div class="edu-section">
+            <div class="edu-section-header">
+                <div>
+                    <header>National Cadet Corps</header>
+                    <span class="edu-section-stat">Annual Assessment Camp 2007</span>
+                </div>
+            </div>
+            <article>
+                <div class="edu-section-cert">
+                    <span class="edu-section-marks">Placed : <span class="red-back">1st</span></span>
+                    <img src="res/cadet-cert.JPG" />
+                </div>
+            </article>
+        </div>
+        
+        <div class="edu-section">
+            <div class="edu-section-header">
+                <div>
+                    <header>As a Chess Player</header>
+                </div>
+            </div>
+            <article>
+                <div class="edu-section-cert">
+                    <span class="edu-section-marks">Placed : <span class="red-back">4th</span></span>
+                    <img src="res/chess-cert.JPG" />
                 </div>
             </article>
         </div>
